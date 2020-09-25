@@ -16,7 +16,7 @@
     width: 150px;
     height: 35px;
     overflow: hidden;
-    border-radius: 20px;
+    border-radius: 21px;
 }
 .mdp-input input:focus{
     outline: none;
