@@ -1,14 +1,15 @@
-/** @jsx jsx */
 import React from "react";
 import ReactDOM from "react-dom";
-import { jsx } from "@emotion/core";
-import Datepicker from "./components/Datepicker";
+import App from "./App";
+import * as serviceWorker from "./serviceWorker";
 
-import "./styles.css";
 
-function App() {
-  return <Datepicker />;
-}
+ReactDOM.render(
+  <div>
+    <App />
+  </div>  
+  ,
+  document.getElementById("root")
+);
 
-const rootElement = document.getElementById("root");
-ReactDOM.render(<App />, rootElement);
+serviceWorker.unregister();
