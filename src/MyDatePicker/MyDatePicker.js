@@ -87,7 +87,7 @@ export default class MyDatePicker extends Component {
         let monthArray = [];
         let rows = 6;
         let currentDay = null;
-        let index = 0; git 
+        let index = 0; 
         let cols = 7;
 
         for(let row=0; row<rows; row++) {
